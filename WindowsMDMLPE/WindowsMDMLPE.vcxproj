@@ -148,15 +148,8 @@
   <ItemGroup>
     <ClInclude Include="FileDeleteToSystem.h" />
     <ClInclude Include="NtDefine.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="ReverseShellServer.h" />
     <ClInclude Include="Win-Ops-Master.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="WindowsMDMLPE.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\Downloads\ma_wojak.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
